@@ -7,7 +7,7 @@ const AttentionComponent = () => {
                     <p className="font-semibold">Bahagia rasanya apabila anda berkenan hadir dan memberikan doa restu kepada kami. Kami mengundang anda untuk hadir dalam acara resepsi pernikahan kami berikut ini </p>
                     <div className="grid grid-cols-2 gap-2 w-full">
                         <div className="w-full bg-white text-start p-4">
-                            <h1 className="text-xl font-semibold">Pemberkatan Pernikahan </h1>
+                            <h1 className="text-xl font-semibold text-blue-700">Pemberkatan Pernikahan </h1>
                             <table className="w-full">
                                 <tr className="">
                                     <th className="font-semibold text-sm text-start"> Tanggal</th>
@@ -25,7 +25,7 @@ const AttentionComponent = () => {
                         </div>
 
                         <div className="w-full bg-white text-start p-4">
-                            <h1 className="text-xl font-semibold">Resepsi Pernikahan</h1>
+                            <h1 className="text-xl font-semibold text-blue-700">Resepsi Pernikahan</h1>
                             <table className="w-full">
                                 <tr className="">
                                     <th className="font-semibold text-sm text-start"> Tanggal</th>

@@ -5,7 +5,7 @@ const CoupleComponent = () => {
                 <div className="md:w-1/2 w-5/6 text-center flex justify-center flex-col gap-3">
                     <h1 className="text-6xl font-bold">Shalom</h1>
                     <p className="font-semibold">Tuhan membuat segala sesuatu indah pada waktuNya. Indah saat dia mempertemukan. Indah saat dia menumbuhkan kasih. Dan indah saat mempersatukan dalam pernikahan Kudus yang akan diselenggarakan pada :</p>
-                    <h1 className="text-sky-700 font-bold text-3xl">Jum'at, 21 Juni 2024</h1>
+                    <h1 className="text-sky-700 font-bold text-3xl">Jum&apos;at, 21 Juni 2024</h1>
                     <div className="w-full grid md:grid-cols-2 grid-cols-1 gap-3">
                         <div className="w-full h-[600px] rounded">
                             <div className="w-full h-[300px] bg-gray-700 rounded"></div>
