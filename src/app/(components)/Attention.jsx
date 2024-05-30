@@ -5,7 +5,7 @@ const AttentionComponent = () => {
             <div className="min-h-screen w-full flex justify-center items-center">
                 <div className="w-5/6 text-center flex justify-center flex-col gap-3 z-20 py-5">
                     <h1 className="text-6xl font-bold">Undangan & Acara</h1>
-                    <p className="font-semibold">Bahagia rasanya apabila anda berkenan hadir dan memberikan doa restu kepada kami. Kami mengundang anda untuk hadir dalam acara resepsi pernikahan kami berikut ini </p>
+                    <p className="font-semibold">Bahagia rasanya apabila anda berkenan hadir dan memberikan doa restu kepada kami. Kami mengundang anda untuk hadir dalam acara resepsi pernikahan kami</p>
                     <div className="grid md:grid-cols-2 grid-cols-1 gap-2 w-full">
                         <div className="w-full bg-white text-start p-4">
                             <h1 className="text-xl font-semibold text-blue-700">Pemberkatan Pernikahan </h1>
