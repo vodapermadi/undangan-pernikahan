@@ -3,7 +3,7 @@ import { useSearchParams } from "next/navigation"
 
 const SectionComponent = () => {
     const param = useSearchParams()
-    console.log(param.get('name'))
+
     return (
         <div className="h-auto w-full bg-[url('/hero.jpg')] bg-cover bg-no-repeat">
             <div className="absolute top-0 bg-white/60 w-full h-screen z-10"></div>
