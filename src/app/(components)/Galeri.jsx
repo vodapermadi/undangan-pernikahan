@@ -3,7 +3,7 @@ import Image from 'next/image'
 import React from 'react'
 
 const Galeri = () => {
-    const countImage = [1,3,4]
+    const countImage = [1,3,4,5]
     return (
         <div className='w-full min-h-screen flex flex-col justify-center items-center bg-white'>
             <div className="w-5/6 my-5 text-center">

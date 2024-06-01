@@ -3,6 +3,8 @@ import AttentionComponent from "./(components)/Attention";
 import CoupleComponent from "./(components)/Couple";
 import Galeri from "./(components)/Galeri";
 import SectionComponent from "./(components)/Section";
+import Gift from "./(components)/Gift";
+import Map from "./(components)/Map";
 
 const MainPage = () => {
 	return (
@@ -12,10 +14,9 @@ const MainPage = () => {
 					<SectionComponent />
 					<CoupleComponent />
 					<AttentionComponent />
+					<Map/>
 					<Galeri />
-					<div className="w-full flex justify-center py-4">
-						<div className="w-5/6 "></div>
-					</div>
+					<Gift/>
 				</div>
 			</Suspense>
 		</>

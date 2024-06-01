@@ -9,18 +9,18 @@ const CoupleComponent = () => {
                     <div className="w-full grid md:grid-cols-2 grid-cols-1 gap-3">
                         <div className="w-full h-[300px] rounded flex flex-col justify-center">
                             <div className="w-full h-[100px] bg-white mt-2">
-                                <h1 className="font-semibold text-3xl mb-2">Kezia Meirenanta Kusuma Wardhani, S.E</h1>
-                                <p className="font-semibold">
-                                    putri dari Bapak Bandianto & Ibu Tri Rusnaningsih <br />
+                                <h1 className="font-bold text-left text-3xl mb-2">Kezia Meirenanta Kusuma Wardhani, S.E</h1>
+                                <p className="font-semibold text-left">
+                                    putri dari Bpk Bandianto <br /> & <br /> Ibu Tri Rusnaningsih <br />
                                     Putri pertama dari tiga bersaudara </p>
                             </div>
                         </div>
 
                         <div className="w-full h-[300px] rounded flex flex-col justify-center">
                             <div className="w-full h-[100px] bg-white mt-2 flex flex-col justify-center">
-                                <h1 className="font-semibold text-3xl mb-2">Kristian Ardiansyah</h1>
-                                <p className="font-semibold">
-                                    putra dari Bapak Sudirman & Ibu Dewi Angrudatin <br />
+                                <h1 className="font-semibold text-3xl text-left mb-2">Kristian Ardiansyah</h1>
+                                <p className="font-semibold text-left">
+                                    putra dari Bpk Sudirman <br /> & <br /> Ibu Dewi Angrudatin <br />
                                     Putra ke 4 dari empat bersaudara</p>
                             </div>
                         </div>
