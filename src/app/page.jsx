@@ -1,4 +1,5 @@
-import { Suspense } from "react";
+"use client"
+import { Suspense, useEffect, useRef } from "react";
 import AttentionComponent from "./(components)/Attention";
 import CoupleComponent from "./(components)/Couple";
 import Galeri from "./(components)/Galeri";
@@ -10,6 +11,9 @@ const MainPage = () => {
 	return (
 		<>
 			<Suspense>
+				<audio autoPlay>
+					<source src="/musik.mp3" type="audio/mpeg" />
+				</audio>
 				<div className="w-full min-h-screen relative">
 					<SectionComponent />
 					<CoupleComponent />
